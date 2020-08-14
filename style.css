@@ -1,7 +1,12 @@
 * {
     font-family: 'Press Start 2P', cursive;
+    color: #fff;
 }
-
+h2 {
+    width: 300px;
+    height: 30px;
+    padding-top: 10px;
+}
 .container {
     display: flex;
     justify-content: center;
@@ -9,7 +14,9 @@
     height: 100vh;
     background-color: #474747;
 }
-
+.row {
+    text-align: center;
+}
 button {
     display: inline-block;
     padding: 15px 25px;
